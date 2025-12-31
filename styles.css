@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
